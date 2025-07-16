@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry kind="lib" path="dist/blockchain.jar"/>
+	<classpathentry kind="lib" path="dist/jgrapht.jar"/>
+	<classpathentry kind="lib" path="dist/jgraphx.jar"/>
+	<classpathentry kind="lib" path="dist/json.jar"/>
+	<classpathentry kind="lib" path="dist/jme3-core-3.7.0-beta1.jar"/>
+	<classpathentry kind="lib" path="dist/jme3-desktop-3.7.0-beta1.jar"/>
+	<classpathentry kind="lib" path="dist/jme-jfx-1.5.2.jar"/>
+	<classpathentry kind="lib" path="dist/pdfbox-2.0.31.jar"/>
+	<classpathentry kind="lib" path="dist/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="dist/fontbox-2.0.31.jar"/>
+	<classpathentry kind="lib" path="dist/gs-core-2.0.jar"/>
+	<classpathentry kind="lib" path="dist/gs-algo-2.0.jar"/>
+	<classpathentry kind="lib" path="dist/gs-ui-javafx-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,80 @@
+/*Style for all buttons*/
+.button {
+    -fx-background-color: #90ee90; /*light green*/
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-font-family: 'Calibri'; /*Set font family*/
+    -fx-font-weight: bold; /*Set font weight*/
+}
+
+/*Style for the menu bar*/
+.menu-bar {
+    -fx-background-color: #90ee90; /*light green*/
+}
+
+/*Style for the menu and menu items text*/
+.menu, .menu-item {
+    -fx-text-fill: #303030; /*dark gray*/
+    -fx-font-family: 'Calibri'; /*Set font family*/
+   
+}
+
+/*Menu item background for visibility*/
+.menu-item {
+    -fx-background-color: #90ee90; /*light green*/
+}
+
+/*Style for menu item hover*/
+.menu-item:hover {
+    -fx-background-color: #add8e6; /*light blue for hover*/
+}
+
+/*Style for the overall page background and text*/
+.root {
+    -fx-background-color: #303030; /*dark gray*/
+    -fx-text-fill: white; /*white text*/
+    -fx-font-family: 'Calibri'; /*Set font family*/
+    -fx-font-weight: bold; /* Set font weight*/
+}
+
+/*Additional styles to ensure that all labels and text are visible on dark background*/
+.label, .text, .text-field, .text-area, .list-view {
+    -fx-text-fill: white;
+    -fx-font-family: 'Calibri'; /*Set font family*/
+    -fx-font-weight: bold; /*Set font weight*/
+}
+
+/*Styles to ensure visibility of text input*/
+.text-field {
+    -fx-background-color: white; /*Light background for text fields*/
+    -fx-text-fill: black; /*Dark text for visibility*/
+    -fx-font-family: 'Calibri'; /*Set font family*/
+    -fx-font-weight: bold; /*Set font weight*/
+}
+
+/*Ensuring combo boxes are visible*/
+.combo-box {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-family: 'Calibri'; /*Set font family*/
+    -fx-font-weight: bold; /*Set font weight*/
+}
+
+.text-area {
+    -fx-font-size: 14px;      /*Sets the font size*/
+    -fx-font-family: 'Calibri'; /*Sets the font family*/
+    -fx-font-weight: bold; /*Set font weight*/
+    -fx-text-fill: black; /* Sets the text color */
+    -fx-control-inner-background: #f0f0f0; /*Sets the background color*/
+}
+
+/*Style for BarChart*/
+.chart-bar {
+    -fx-bar-fill: #90ee90; /*light green*/
+}
+
+/*Ensures that the legend items also reflect the color change*/
+.default-color0.chart-legend-item-symbol {
+    -fx-background-color: #90ee90, white;
+}
